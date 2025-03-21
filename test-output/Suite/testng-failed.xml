@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [Suite]">
+  <test thread-count="4" parallel="methods" name="checkbox_test(failed)">
+    <classes>
+      <class name="testScript_March.checkbox_test">
+        <methods>
+          <include name="getUrl_testingbaba"/>
+          <include name="ClickOnCheckboxbtn"/>
+          <include name="getUrl_Testingbaba"/>
+          <include name="ClickOnGagetsbtn"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testScript_March.checkbox_test -->
+    </classes>
+  </test> <!-- checkbox_test(failed) -->
+  <test thread-count="4" parallel="methods" name="Radobutton_test(failed)">
+    <classes>
+      <class name="testScript_March.Radobutton_test">
+        <methods>
+          <include name="ClickOnButtobbtn"/>
+          <include name="ClickonRadiobuttonbtn"/>
+          <include name="getUrl_testingbaba"/>
+          <include name="getUrl_Testingbaba"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testScript_March.Radobutton_test -->
+    </classes>
+  </test> <!-- Radobutton_test(failed) -->
+  <test thread-count="4" parallel="methods" name="Link_test(failed)">
+    <classes>
+      <class name="testScript_March.Link_test">
+        <methods>
+          <include name="ClickDemopagebtn"/>
+          <include name="getUrl_testingbaba"/>
+          <include name="ClickLinksbtn"/>
+          <include name="ClickAPIbtn"/>
+          <include name="getUrl_Testingbaba"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testScript_March.Link_test -->
+    </classes>
+  </test> <!-- Link_test(failed) -->
+  <test thread-count="4" parallel="methods" name="Webtable_Test(failed)">
+    <classes>
+      <class name="testScript_March.Webtable_Test">
+        <methods>
+          <include name="ClickOnDetails"/>
+          <include name="getUrl_testingbaba"/>
+          <include name="getUrl_Testingbaba"/>
+          <include name="ClickOnwebtable"/>
+          <include name="getupdated_UIdata"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testScript_March.Webtable_Test -->
+    </classes>
+  </test> <!-- Webtable_Test(failed) -->
+  <test thread-count="4" parallel="methods" name="Textbox_test(failed)">
+    <classes>
+      <class name="testScript_March.Textbox_test">
+        <methods>
+          <include name="ClickOnTextboxbtn"/>
+          <include name="getUrl_Testingbaba"/>
+          <include name="getfillDetails"/>
+          <include name="getUrl_testingbaba"/>
+          <include name="getDetails"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testScript_March.Textbox_test -->
+    </classes>
+  </test> <!-- Textbox_test(failed) -->
+  <test thread-count="4" parallel="methods" name="Button_test(failed)">
+    <classes>
+      <class name="testScript_March.Button_test">
+        <methods>
+          <include name="getUrl_Testingbaba"/>
+          <include name="ClickOnActionButtonbtn"/>
+          <include name="getUrl_testingbaba"/>
+          <include name="ClickOnButtonbtn"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testScript_March.Button_test -->
+    </classes>
+  </test> <!-- Button_test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

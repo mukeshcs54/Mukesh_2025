@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Testingbaba">
+  <test name="checkbox_test" enabled="true">
+    <classes>
+      <class name="testScript_March.checkbox_test"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="Radobutton_test" enabled="true">
+    <classes>
+      
+      <class name="testScript_March.Radobutton_test"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="Link_test" enabled="true">
+    <classes>
+      
+      <class name="testScript_March.Link_test"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="Webtable_Test" enabled="true">
+    <classes>
+      
+      <class name="testScript_March.Webtable_Test"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="Textbox_test" enabled="true">
+    <classes>
+     
+      <class name="testScript_March.Textbox_test"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  <test name="Button_test" enabled="true">
+    <classes>
+      
+      <class name="testScript_March.Button_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
